@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         btnMakeOrder.setOnClickListener(view -> {
-            price = 6;
+            price = 7;
             if (checkCream.isChecked()) {
                 price += 1;
             }
