@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private int numberCup=1, price=5;
+    private int numberCup=1, price;
 
     private Button btnMinus, btnAdd, btnMakeOrder;
     private TextView tvNumberCup;
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         btnMakeOrder.setOnClickListener(view -> {
-            price = 5;
+            price = 6;
             if (checkCream.isChecked()) {
                 price += 1;
             }
